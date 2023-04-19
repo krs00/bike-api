@@ -29,7 +29,5 @@ function getColors(apiResponse) {
     newArr.push(bikesObj[i]);
 
   }
-
-  console.log(newArr);
 }
 
