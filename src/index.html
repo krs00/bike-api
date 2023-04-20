@@ -6,19 +6,42 @@
 </head>
 
 <body>
-  <h1>template-repo1</h1>
+  <h1>bike stolen percentage</h1>
 
-  <from>
+  <form id="form">
 
-    <label for="bike-color">Choose a Bike Color</label>
-    <select name="cars" id="bike-color">
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
-      <option value="mercedes">Mercedes</option>
-      <option value="audi">Audi</option>
+    <!-- CHOSOSE A CITY --> 
+    <label for="city">Choose a City</label>
+    <select name="city" id="city">
+      <option id="portland" value="portland">portland</option>
+      <option id="eugene" value="eugene">eugene</option>
+      <option id="salem" value="salem">salem</option>
+      <option id="roseburg" value="roseburg">roseburg</option>
+      <option id="corvallis" value="corvallis">corvallis</option>
     </select>
 
-  </from>
+    <br>
+
+    <!--  BIKE COLOR SELECTION  -->
+    <label for="bike-color">Choose A Bike Color</label>
+    <select name="color" id="bike-color">
+      <option value="black" id="black">black</option>
+      <option value="blue" id="blue">blue</option>
+      <option value="green" id="green">green</option>
+      <option value="brown" id="brown">brown</option>
+      <option value="red" id="red">red</option>
+      <option value="silver" id="silver">silver</option>
+      <option value="teal" id="teal">teal</option>
+      <option value="white" id="white">white</option>
+      <option value="yellow" id="yellow">yellow</option>
+      <option value="orange" id="orange">orange</option>
+      <option value="pink" id="pink">pink</option>
+      <option value="purple" id="purple">purple</option>
+    </select>
+    <button type="submit" id="btn">SUBMIT</button>
+  </form>
+
+  <p id="output"></p> 
 
 
 </body>
